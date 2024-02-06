@@ -1,0 +1,40 @@
+"""
+
+THE PROBLEM 
+As a user
+So that I can improve my grammar
+I want to verify that a text starts with a capital letter and ends with a suitable sentence-ending punctuation mark.
+
+FUNCTION 
+def check_grammar():
+    arguments ==> text to be checked
+    returns ==> a sucess message or a check again message
+    side effects ==> None
+
+TESTS
+
+check_grammar('This sentence is perfect.'):
+assert result == 'Well done, your grammar is correct!'
+
+check_grammar('Is this sentence perfect?'):
+assert result == 'Well done, your grammar is correct!'
+
+check_grammar('This is a great sentence!'):
+assert result == 'Well done, your grammar is correct!'
+
+check_grammar('this is wrong'):
+assert result == 'Please re-check your grammar.'
+
+check_grammar('this is also wrong/'):
+assert result == 'Please re-check your grammar.'
+
+
+
+
+
+
+
+
+
+
+"""    
